@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tesla *.css
+recursive-include tesla *.csv
+recursive-include tesla *.html
+recursive-include tesla *.ico
+recursive-include tesla *.js
+recursive-include tesla *.json
+recursive-include tesla *.md
+recursive-include tesla *.png
+recursive-include tesla *.py
+recursive-include tesla *.svg
+recursive-include tesla *.txt
+recursive-exclude tesla *.pyc
