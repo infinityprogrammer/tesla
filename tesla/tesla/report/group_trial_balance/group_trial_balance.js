@@ -73,12 +73,14 @@ frappe.query_reports["Group Trial Balance"] = {
 			"label": __("Finance Book"),
 			"fieldtype": "Link",
 			"options": "Finance Book",
+			"hidden": 1
 		},
 		{
 			"fieldname": "presentation_currency",
 			"label": __("Currency"),
 			"fieldtype": "Select",
-			"options": erpnext.get_presentation_currency_list()
+			"options": erpnext.get_presentation_currency_list(),
+			"hidden": 1
 		},
 		{
 			"fieldname": "with_period_closing_entry",
