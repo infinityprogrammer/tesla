@@ -425,7 +425,7 @@ def get_columns():
 			"fieldname": "account_name",
 			"label": _("Account Name"),
 			"fieldtype": "Data",
-			"width": 200,
+			"width": 300,
 		},
 		{
 			"fieldname": "currency",

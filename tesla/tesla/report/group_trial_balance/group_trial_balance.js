@@ -60,7 +60,8 @@ frappe.query_reports["Group Trial Balance"] = {
 						"company": company,
 					}
 				}
-			}
+			},
+			"hidden": 1
 		},
 		{
 			"fieldname": "project",
@@ -112,4 +113,4 @@ frappe.query_reports["Group Trial Balance"] = {
 	"initial_depth": 3
 }
 
-erpnext.utils.add_dimensions('Group Trial Balance', 7);
+erpnext.utils.add_dimensions('Group Trial Balance', 6);

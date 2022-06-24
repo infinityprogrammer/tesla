@@ -1,5 +1,5 @@
 {
- "add_total_row": 1,
+ "add_total_row": 0,
  "columns": [],
  "creation": "2022-06-22 12:50:52.244436",
  "disable_prepared_report": 0,
@@ -9,7 +9,7 @@
  "filters": [],
  "idx": 0,
  "is_standard": "Yes",
- "modified": "2022-06-23 16:58:45.998812",
+ "modified": "2022-06-24 08:16:39.530424",
  "modified_by": "Administrator",
  "module": "Tesla",
  "name": "Group Trial Balance",
