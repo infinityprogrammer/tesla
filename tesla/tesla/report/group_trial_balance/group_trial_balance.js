@@ -112,4 +112,4 @@ frappe.query_reports["Group Trial Balance"] = {
 	"initial_depth": 3
 }
 
-erpnext.utils.add_dimensions('Group Trial Balance', 6);
+erpnext.utils.add_dimensions('Group Trial Balance', 7);
