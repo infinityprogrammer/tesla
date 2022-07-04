@@ -1,6 +1,14 @@
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
+# ------------------------------------------------
+# App/Module : Group Trial Balance
+# Developed By : MUHAMMED RAFI A
+# Email : rafiit@grandhyper.com
+# Github : infinityprogrammer
+# LICENSE : MIT 
+# ------------------------------------------------
+
 
 import frappe
 from frappe import _

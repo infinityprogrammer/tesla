@@ -1,4 +1,13 @@
 // Copyright (c) 2022, RAFI and contributors
+
+// ------------------------------------------------
+//  App/Module : Group General Ledger
+//  Developed By : MUHAMMED RAFI A
+//  Email : rafiit@grandhyper.com
+//  Github : infinityprogrammer
+//  LICENSE : MIT 
+// ------------------------------------------------
+
 // For license information, please see license.txt
 /* eslint-disable */
 

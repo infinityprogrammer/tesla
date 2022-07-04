@@ -1,6 +1,13 @@
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: GNU General Public License v3. See license.txt
 
+# ------------------------------------------------
+# App/Module : Group General Ledger
+# Developed By : MUHAMMED RAFI A
+# Email : rafiit@grandhyper.com
+# Github : infinityprogrammer
+# LICENSE : MIT 
+# ------------------------------------------------
 
 from collections import OrderedDict
 
