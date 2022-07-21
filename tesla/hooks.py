@@ -129,6 +129,11 @@ app_license = "MIT"
 # 	"monthly": [
 # 		"tesla.tasks.monthly"
 # 	],
+#     "cron": {
+#         "0/1 * * * *": [
+#             "tesla.tasks.sample_todo"
+#         ]
+#     }
 # }
 
 # Testing
