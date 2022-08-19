@@ -25,7 +25,8 @@
 		font-family: Inter, "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
     }
     .rf-border-bottom {
-        border-bottom: 1px solid black !important;
+		font-weight: bold;
+        border-bottom: 1px solid rgb(56, 56, 56) !important;
     }
 </style>
 
@@ -46,7 +47,7 @@
 	</h5>
 {% } %}
 <hr>
-<table class="table table-bordered1" style="font-size: 10px;">
+<table class="table table-bordered1" style="font-size: 11px;">
 	<thead>
 		<tr>
 			<th style="width: {%= 100 - (report_columns.length - 1) * 13 %}%"></th>
@@ -63,16 +64,13 @@
 				row_class += data[j].account_name ? "" : " financial-statements-blank-row";
 
                 var rf_row_bold = "";
-                var rf_border_bt = "";
-                if (data[j].indent == "1" || data[j].indent == "2"){
-                    rf_row_bold +="financial-statements-important";
-                }
                 if (data[j].indent == "1"){
-                    rf_border_bt +="rf-border-bottom";
+                    rf_row_bold +="rf-border-bottom";
                 }
+                
 			%}
-			<tr class="{%= row_class %} {%= rf_row_bold %} {%= rf_border_bt %}">
-				<td style="width: 45%;">
+			<tr class="{%= row_class %} {%= rf_row_bold %}">
+				<td style="width: 50%;">
 					<span style="padding-left: {%= cint(data[j].indent) * 2 %}em">{%= row.account_name %}</span>
 				</td>
 				{% for(let i=1, l=report_columns.length; i<l; i++) { %}

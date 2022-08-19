@@ -29,10 +29,6 @@ value_fields = (
 def execute(filters=None):
 	validate_filters(filters)
 	data = get_data(filters)
-
-	print("***************")
-	print(data)
-
 	columns = get_columns()
 	return columns, data
 
