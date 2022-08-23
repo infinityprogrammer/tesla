@@ -5,6 +5,7 @@
 	if (report_columns.length > 8) {
 		frappe.throw(__("Too many columns. Export the report and print it using a spreadsheet application."));
 	}
+	
 %}
 
 <style>
@@ -33,6 +34,8 @@
 
 <h2 class="text-center">{%= __(report.report_name) %}</h2>
 <h3 class="text-center">{%= filters.company %}</h3>
+
+
 
 {% if 'cost_center' in filters %}
 	<h3 class="text-center">{%= filters.cost_center %}</h3>
@@ -65,7 +68,7 @@
 				row_class += data[j].account_name ? "" : " financial-statements-blank-row";
 
                 var rf_row_bold = "";
-                if (data[j].indent == "1"){
+                if (data[j].indent == "1" || data[j].indent == "2"){
                     rf_row_bold +="rf-border-bottom";
                 }
                 

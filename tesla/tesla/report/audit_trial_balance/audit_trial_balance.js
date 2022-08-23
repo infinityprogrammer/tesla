@@ -11,7 +11,7 @@ frappe.require("assets/erpnext/js/financial_statements.js", function() {
 				"fieldtype": "Link",
 				"options": "Company",
 				"default": frappe.defaults.get_user_default("Company"),
-				"reqd": 1
+				"reqd": 1,
 			},
 			{
 				"fieldname": "fiscal_year",
@@ -100,7 +100,7 @@ frappe.require("assets/erpnext/js/financial_statements.js", function() {
 				"label": __("Include Default Book Entries"),
 				"fieldtype": "Check",
 				"default": 1
-			}
+			},
 		],
 		"formatter": erpnext.financial_statements.formatter,
 		"tree": true,
